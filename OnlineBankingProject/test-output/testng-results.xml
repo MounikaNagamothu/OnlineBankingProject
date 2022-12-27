@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="57" passed="51" failed="3" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-22T01:21:51 EST" name="Suite" finished-at="2022-12-22T01:22:54 EST" duration-ms="63000">
+    <groups>
+      <group name="Sanity">
+        <method signature="FramesEx.Frames()[pri:0, instance:com.testng.FramesEx@a38c7fe]" name="Frames" class="com.testng.FramesEx"/>
+        <method signature="AlertsEx.Alerts()[pri:0, instance:com.testng.AlertsEx@534a5a98]" name="Alerts" class="com.testng.AlertsEx"/>
+        <method signature="AnnotationsEx.btest3()[pri:2, instance:com.testng.AnnotationsEx@70e9c95d]" name="btest3" class="com.testng.AnnotationsEx"/>
+        <method signature="FramesEx.Frames()[pri:0, instance:com.testng.FramesEx@2af004b]" name="Frames" class="com.testng.FramesEx"/>
+        <method signature="AlertsEx.Alerts()[pri:0, instance:com.testng.AlertsEx@74ea2410]" name="Alerts" class="com.testng.AlertsEx"/>
+        <method signature="AnnotationsEx.btest3()[pri:2, instance:com.testng.AnnotationsEx@76b1e9b8]" name="btest3" class="com.testng.AnnotationsEx"/>
+        <method signature="FramesEx.Frames()[pri:0, instance:com.testng.FramesEx@117159c0]" name="Frames" class="com.testng.FramesEx"/>
+        <method signature="AlertsEx.Alerts()[pri:0, instance:com.testng.AlertsEx@3e8c3cb]" name="Alerts" class="com.testng.AlertsEx"/>
+        <method signature="AnnotationsEx.btest3()[pri:2, instance:com.testng.AnnotationsEx@543295b0]" name="btest3" class="com.testng.AnnotationsEx"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="AnnotationsEx.atest4()[pri:-1, instance:com.testng.AnnotationsEx@70e9c95d]" name="atest4" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.atest5()[pri:-1, instance:com.testng.AnnotationsEx@70e9c95d]" name="atest5" class="com.testng.AnnotationsEx"/>
+        <method signature="ClickAndHoldEx.clickandhold()[pri:0, instance:com.testng.ClickAndHoldEx@4d5650ae]" name="clickandhold" class="com.testng.ClickAndHoldEx"/>
+        <method signature="AnnotationsEx.dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" name="dtest1" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.atest4()[pri:-1, instance:com.testng.AnnotationsEx@76b1e9b8]" name="atest4" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.atest5()[pri:-1, instance:com.testng.AnnotationsEx@76b1e9b8]" name="atest5" class="com.testng.AnnotationsEx"/>
+        <method signature="ClickAndHoldEx.clickandhold()[pri:0, instance:com.testng.ClickAndHoldEx@27406a17]" name="clickandhold" class="com.testng.ClickAndHoldEx"/>
+        <method signature="AnnotationsEx.dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" name="dtest1" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.atest4()[pri:-1, instance:com.testng.AnnotationsEx@543295b0]" name="atest4" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.atest5()[pri:-1, instance:com.testng.AnnotationsEx@543295b0]" name="atest5" class="com.testng.AnnotationsEx"/>
+        <method signature="ClickAndHoldEx.clickandhold()[pri:0, instance:com.testng.ClickAndHoldEx@54422e18]" name="clickandhold" class="com.testng.ClickAndHoldEx"/>
+        <method signature="AnnotationsEx.dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" name="dtest1" class="com.testng.AnnotationsEx"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AnnotationsEx.ctest2()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" name="ctest2" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" name="dtest1" class="com.testng.AnnotationsEx"/>
+        <method signature="ActionsEx.actions()[pri:0, instance:com.testng.ActionsEx@4f80542f]" name="actions" class="com.testng.ActionsEx"/>
+        <method signature="DropDownEx.dropdown()[pri:0, instance:com.testng.DropDownEx@729d991e]" name="dropdown" class="com.testng.DropDownEx"/>
+        <method signature="AnnotationsEx.ctest2()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" name="ctest2" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" name="dtest1" class="com.testng.AnnotationsEx"/>
+        <method signature="ActionsEx.actions()[pri:0, instance:com.testng.ActionsEx@17f62e33]" name="actions" class="com.testng.ActionsEx"/>
+        <method signature="DropDownEx.dropdown()[pri:0, instance:com.testng.DropDownEx@25ce9dc4]" name="dropdown" class="com.testng.DropDownEx"/>
+        <method signature="AnnotationsEx.ctest2()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" name="ctest2" class="com.testng.AnnotationsEx"/>
+        <method signature="AnnotationsEx.dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" name="dtest1" class="com.testng.AnnotationsEx"/>
+        <method signature="ActionsEx.actions()[pri:0, instance:com.testng.ActionsEx@563f38c4]" name="actions" class="com.testng.ActionsEx"/>
+        <method signature="DropDownEx.dropdown()[pri:0, instance:com.testng.DropDownEx@793f29ff]" name="dropdown" class="com.testng.DropDownEx"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-12-22T01:21:51 EST" name="Test" finished-at="2022-12-22T01:22:39 EST" duration-ms="47335">
+      <class name="com.testng.ClickAndHoldEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.ClickAndHoldEx@4d5650ae]" started-at="2022-12-22T01:22:17 EST" name="launch" finished-at="2022-12-22T01:22:18 EST" duration-ms="775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="clickandhold()[pri:0, instance:com.testng.ClickAndHoldEx@4d5650ae]" started-at="2022-12-22T01:22:18 EST" name="clickandhold" finished-at="2022-12-22T01:22:23 EST" duration-ms="5074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickandhold -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.ClickAndHoldEx@4d5650ae]" started-at="2022-12-22T01:22:23 EST" name="closeBrowser" finished-at="2022-12-22T01:22:23 EST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.ClickAndHoldEx -->
+      <class name="com.testng.AnnotationsEx">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:21:51 EST" name="beforeClass" finished-at="2022-12-22T01:21:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:21:51 EST" name="beforeMethod" finished-at="2022-12-22T01:21:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="atest4()[pri:-1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:21:51 EST" name="atest4" description="This is fourth test case" finished-at="2022-12-22T01:21:52 EST" duration-ms="30" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Testcase is Passed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Testcase is Passed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.testng.AnnotationsEx.atest4(AnnotationsEx.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:21:52 EST" name="afterMethod" finished-at="2022-12-22T01:21:52 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="atest5()[pri:-1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:21:52 EST" name="atest5" description="This is fifth test case" finished-at="2022-12-22T01:21:52 EST" depends-on-methods="com.testng.AnnotationsEx.atest4" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.testng.AnnotationsEx.atest5() on instance com.testng.AnnotationsEx@70e9c95d depends on not successfully finished methods 
+[com.testng.AnnotationsEx.atest4() on instance com.testng.AnnotationsEx@70e9c95d]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.testng.AnnotationsEx.atest5() on instance com.testng.AnnotationsEx@70e9c95d depends on not successfully finished methods 
+[com.testng.AnnotationsEx.atest4() on instance com.testng.AnnotationsEx@70e9c95d]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest5 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:23 EST" name="beforeMethod" finished-at="2022-12-22T01:22:23 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ctest2()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:23 EST" name="ctest2" description="This is second test case" finished-at="2022-12-22T01:22:23 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:23 EST" name="afterMethod" finished-at="2022-12-22T01:22:23 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="btest3()[pri:2, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="btest3" description="This is Third case" finished-at="2022-12-22T01:22:39 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest3 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.AnnotationsEx@70e9c95d]" started-at="2022-12-22T01:22:39 EST" name="afterClass" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testng.AnnotationsEx -->
+      <class name="com.testng.DropDownEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.DropDownEx@729d991e]" started-at="2022-12-22T01:22:23 EST" name="launch" finished-at="2022-12-22T01:22:25 EST" duration-ms="1628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="dropdown()[pri:0, instance:com.testng.DropDownEx@729d991e]" started-at="2022-12-22T01:22:25 EST" name="dropdown" finished-at="2022-12-22T01:22:39 EST" duration-ms="13926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.DropDownEx@729d991e]" started-at="2022-12-22T01:22:39 EST" name="closeBrowser" finished-at="2022-12-22T01:22:39 EST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.DropDownEx -->
+      <class name="com.testng.AlertsEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.AlertsEx@534a5a98]" started-at="2022-12-22T01:21:52 EST" name="launch" finished-at="2022-12-22T01:21:55 EST" duration-ms="3276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Alerts()[pri:0, instance:com.testng.AlertsEx@534a5a98]" started-at="2022-12-22T01:21:55 EST" name="Alerts" finished-at="2022-12-22T01:21:58 EST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alerts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.AlertsEx@534a5a98]" started-at="2022-12-22T01:21:58 EST" name="closeBrowser" finished-at="2022-12-22T01:21:58 EST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.AlertsEx -->
+      <class name="com.testng.ActionsEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.ActionsEx@4f80542f]" started-at="2022-12-22T01:22:08 EST" name="launch" finished-at="2022-12-22T01:22:09 EST" duration-ms="879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="actions()[pri:0, instance:com.testng.ActionsEx@4f80542f]" started-at="2022-12-22T01:22:09 EST" name="actions" finished-at="2022-12-22T01:22:16 EST" duration-ms="7352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testng.ActionsEx@4f80542f]" started-at="2022-12-22T01:22:16 EST" name="close" finished-at="2022-12-22T01:22:17 EST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testng.ActionsEx -->
+      <class name="com.testng.FramesEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.FramesEx@a38c7fe]" started-at="2022-12-22T01:21:58 EST" name="launch" finished-at="2022-12-22T01:21:59 EST" duration-ms="1284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Frames()[pri:0, instance:com.testng.FramesEx@a38c7fe]" started-at="2022-12-22T01:21:59 EST" name="Frames" finished-at="2022-12-22T01:22:08 EST" duration-ms="8570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frames -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.FramesEx@a38c7fe]" started-at="2022-12-22T01:22:08 EST" name="closeBrowser" finished-at="2022-12-22T01:22:08 EST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.FramesEx -->
+    </test> <!-- Test -->
+    <test started-at="2022-12-22T01:21:51 EST" name="Test2" finished-at="2022-12-22T01:22:39 EST" duration-ms="47696">
+      <class name="com.testng.ClickAndHoldEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.ClickAndHoldEx@54422e18]" started-at="2022-12-22T01:22:17 EST" name="launch" finished-at="2022-12-22T01:22:18 EST" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="clickandhold()[pri:0, instance:com.testng.ClickAndHoldEx@54422e18]" started-at="2022-12-22T01:22:18 EST" name="clickandhold" finished-at="2022-12-22T01:22:21 EST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickandhold -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.ClickAndHoldEx@54422e18]" started-at="2022-12-22T01:22:21 EST" name="closeBrowser" finished-at="2022-12-22T01:22:23 EST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.ClickAndHoldEx -->
+      <class name="com.testng.AnnotationsEx">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:21:51 EST" name="beforeSuite" finished-at="2022-12-22T01:21:51 EST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:21:51 EST" name="beforeClass" finished-at="2022-12-22T01:21:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:21:51 EST" name="beforeMethod" finished-at="2022-12-22T01:21:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="atest4()[pri:-1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:21:51 EST" name="atest4" description="This is fourth test case" finished-at="2022-12-22T01:21:52 EST" duration-ms="31" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Testcase is Passed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Testcase is Passed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.testng.AnnotationsEx.atest4(AnnotationsEx.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:21:52 EST" name="afterMethod" finished-at="2022-12-22T01:21:52 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="atest5()[pri:-1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:21:52 EST" name="atest5" description="This is fifth test case" finished-at="2022-12-22T01:21:52 EST" depends-on-methods="com.testng.AnnotationsEx.atest4" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.testng.AnnotationsEx.atest5() on instance com.testng.AnnotationsEx@543295b0 depends on not successfully finished methods 
+[com.testng.AnnotationsEx.atest4() on instance com.testng.AnnotationsEx@543295b0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.testng.AnnotationsEx.atest5() on instance com.testng.AnnotationsEx@543295b0 depends on not successfully finished methods 
+[com.testng.AnnotationsEx.atest4() on instance com.testng.AnnotationsEx@543295b0]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest5 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:23 EST" name="beforeMethod" finished-at="2022-12-22T01:22:23 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ctest2()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:23 EST" name="ctest2" description="This is second test case" finished-at="2022-12-22T01:22:23 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:23 EST" name="afterMethod" finished-at="2022-12-22T01:22:23 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="btest3()[pri:2, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="btest3" description="This is Third case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest3 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterClass" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testng.AnnotationsEx@543295b0]" started-at="2022-12-22T01:22:54 EST" name="afterSuite" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testng.AnnotationsEx -->
+      <class name="com.testng.DropDownEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.DropDownEx@793f29ff]" started-at="2022-12-22T01:22:23 EST" name="launch" finished-at="2022-12-22T01:22:24 EST" duration-ms="1127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="dropdown()[pri:0, instance:com.testng.DropDownEx@793f29ff]" started-at="2022-12-22T01:22:24 EST" name="dropdown" finished-at="2022-12-22T01:22:39 EST" duration-ms="15041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.DropDownEx@793f29ff]" started-at="2022-12-22T01:22:39 EST" name="closeBrowser" finished-at="2022-12-22T01:22:39 EST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.DropDownEx -->
+      <class name="com.testng.AlertsEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.AlertsEx@3e8c3cb]" started-at="2022-12-22T01:21:52 EST" name="launch" finished-at="2022-12-22T01:21:55 EST" duration-ms="3278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Alerts()[pri:0, instance:com.testng.AlertsEx@3e8c3cb]" started-at="2022-12-22T01:21:55 EST" name="Alerts" finished-at="2022-12-22T01:21:58 EST" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alerts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.AlertsEx@3e8c3cb]" started-at="2022-12-22T01:21:58 EST" name="closeBrowser" finished-at="2022-12-22T01:21:58 EST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.AlertsEx -->
+      <class name="com.testng.ActionsEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.ActionsEx@563f38c4]" started-at="2022-12-22T01:22:08 EST" name="launch" finished-at="2022-12-22T01:22:09 EST" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="actions()[pri:0, instance:com.testng.ActionsEx@563f38c4]" started-at="2022-12-22T01:22:09 EST" name="actions" finished-at="2022-12-22T01:22:16 EST" duration-ms="7405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testng.ActionsEx@563f38c4]" started-at="2022-12-22T01:22:16 EST" name="close" finished-at="2022-12-22T01:22:17 EST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testng.ActionsEx -->
+      <class name="com.testng.FramesEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.FramesEx@117159c0]" started-at="2022-12-22T01:21:58 EST" name="launch" finished-at="2022-12-22T01:21:59 EST" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Frames()[pri:0, instance:com.testng.FramesEx@117159c0]" started-at="2022-12-22T01:21:59 EST" name="Frames" finished-at="2022-12-22T01:22:07 EST" duration-ms="8472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frames -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.FramesEx@117159c0]" started-at="2022-12-22T01:22:07 EST" name="closeBrowser" finished-at="2022-12-22T01:22:08 EST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.FramesEx -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-12-22T01:21:51 EST" name="Test1" finished-at="2022-12-22T01:22:54 EST" duration-ms="63000">
+      <class name="com.testng.ClickAndHoldEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.ClickAndHoldEx@27406a17]" started-at="2022-12-22T01:22:33 EST" name="launch" finished-at="2022-12-22T01:22:36 EST" duration-ms="2548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="clickandhold()[pri:0, instance:com.testng.ClickAndHoldEx@27406a17]" started-at="2022-12-22T01:22:36 EST" name="clickandhold" finished-at="2022-12-22T01:22:38 EST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickandhold -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.ClickAndHoldEx@27406a17]" started-at="2022-12-22T01:22:38 EST" name="closeBrowser" finished-at="2022-12-22T01:22:39 EST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.ClickAndHoldEx -->
+      <class name="com.testng.AnnotationsEx">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:21:51 EST" name="beforeClass" finished-at="2022-12-22T01:21:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:21:51 EST" name="beforeMethod" finished-at="2022-12-22T01:21:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="atest4()[pri:-1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:21:51 EST" name="atest4" description="This is fourth test case" finished-at="2022-12-22T01:21:52 EST" duration-ms="31" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Testcase is Passed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Testcase is Passed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.testng.AnnotationsEx.atest4(AnnotationsEx.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:21:52 EST" name="afterMethod" finished-at="2022-12-22T01:21:52 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="atest5()[pri:-1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:21:52 EST" name="atest5" description="This is fifth test case" finished-at="2022-12-22T01:21:52 EST" depends-on-methods="com.testng.AnnotationsEx.atest4" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.testng.AnnotationsEx.atest5() on instance com.testng.AnnotationsEx@76b1e9b8 depends on not successfully finished methods 
+[com.testng.AnnotationsEx.atest4() on instance com.testng.AnnotationsEx@76b1e9b8]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.testng.AnnotationsEx.atest5() on instance com.testng.AnnotationsEx@76b1e9b8 depends on not successfully finished methods 
+[com.testng.AnnotationsEx.atest4() on instance com.testng.AnnotationsEx@76b1e9b8]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest5 -->
+        <test-method signature="ctest2()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:39 EST" name="ctest2" description="This is second test case" finished-at="2022-12-22T01:22:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:39 EST" name="beforeMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:39 EST" name="afterMethod" finished-at="2022-12-22T01:22:39 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="dtest1()[pri:1, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="dtest1" description="This is first case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest1 -->
+        <test-method signature="btest3()[pri:2, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="btest3" description="This is Third case" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest3 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="beforeMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterMethod" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.AnnotationsEx@76b1e9b8]" started-at="2022-12-22T01:22:54 EST" name="afterClass" finished-at="2022-12-22T01:22:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testng.AnnotationsEx -->
+      <class name="com.testng.DropDownEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.DropDownEx@25ce9dc4]" started-at="2022-12-22T01:22:39 EST" name="launch" finished-at="2022-12-22T01:22:41 EST" duration-ms="2534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="dropdown()[pri:0, instance:com.testng.DropDownEx@25ce9dc4]" started-at="2022-12-22T01:22:41 EST" name="dropdown" finished-at="2022-12-22T01:22:53 EST" duration-ms="12235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.DropDownEx@25ce9dc4]" started-at="2022-12-22T01:22:53 EST" name="closeBrowser" finished-at="2022-12-22T01:22:54 EST" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.DropDownEx -->
+      <class name="com.testng.AlertsEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.AlertsEx@74ea2410]" started-at="2022-12-22T01:21:52 EST" name="launch" finished-at="2022-12-22T01:21:59 EST" duration-ms="7106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Alerts()[pri:0, instance:com.testng.AlertsEx@74ea2410]" started-at="2022-12-22T01:21:59 EST" name="Alerts" finished-at="2022-12-22T01:22:01 EST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alerts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.AlertsEx@74ea2410]" started-at="2022-12-22T01:22:01 EST" name="closeBrowser" finished-at="2022-12-22T01:22:03 EST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.AlertsEx -->
+      <class name="com.testng.ActionsEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.ActionsEx@17f62e33]" started-at="2022-12-22T01:22:15 EST" name="launch" finished-at="2022-12-22T01:22:19 EST" duration-ms="4465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="actions()[pri:0, instance:com.testng.ActionsEx@17f62e33]" started-at="2022-12-22T01:22:19 EST" name="actions" finished-at="2022-12-22T01:22:32 EST" duration-ms="12899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testng.ActionsEx@17f62e33]" started-at="2022-12-22T01:22:32 EST" name="close" finished-at="2022-12-22T01:22:33 EST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testng.ActionsEx -->
+      <class name="com.testng.FramesEx">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:com.testng.FramesEx@2af004b]" started-at="2022-12-22T01:22:03 EST" name="launch" finished-at="2022-12-22T01:22:06 EST" duration-ms="3454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Frames()[pri:0, instance:com.testng.FramesEx@2af004b]" started-at="2022-12-22T01:22:06 EST" name="Frames" finished-at="2022-12-22T01:22:13 EST" duration-ms="7152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frames -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testng.FramesEx@2af004b]" started-at="2022-12-22T01:22:13 EST" name="closeBrowser" finished-at="2022-12-22T01:22:15 EST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testng.FramesEx -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

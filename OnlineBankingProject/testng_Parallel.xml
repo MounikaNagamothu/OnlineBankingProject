@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+<listeners>
+	<listener class-name="com.testng.Listener"></listener>
+	 <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+	<parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.testng.DropDownEx"/>
+      <class name="com.testng.AlertsEx"/>
+      <class name="com.testng.ActionsEx"/>
+      <class name="com.testng.AnnotationsEx"/>
+      <class name="com.testng.ClickAndHoldEx"/>
+      <class name="com.testng.FramesEx"/>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Test1">
+	<parameter name="Browser" value="Firefox"></parameter>
+    <classes>
+      <class name="com.testng.DropDownEx"/>
+      <class name="com.testng.AlertsEx"/>   
+      <class name="com.testng.ActionsEx"/>
+      <class name="com.testng.AnnotationsEx"/>
+      <class name="com.testng.ClickAndHoldEx"/>
+      <class name="com.testng.FramesEx"/>
+    </classes>
+  </test> <!-- Test -->
+<test thread-count="5" name="Test2">
+	<parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="com.testng.DropDownEx"/>
+      <class name="com.testng.AlertsEx"/>
+      <class name="com.testng.ActionsEx"/>
+      <class name="com.testng.AnnotationsEx"/>
+      <class name="com.testng.ClickAndHoldEx"/>
+      <class name="com.testng.FramesEx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
