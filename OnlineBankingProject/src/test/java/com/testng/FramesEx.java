@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class FramesEx {
 WebDriver driver;
 	
+//frames example
 	@BeforeMethod
 	@Parameters(value= {"Browser"})
 	public void launch(String browser) {
